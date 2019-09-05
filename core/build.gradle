@@ -1,0 +1,75 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply from: '../dependencies.gradle'
+android {
+    compileSdkVersion androidCompileSdkVersion
+
+
+    defaultConfig {
+        minSdkVersion androidMinSdkVersion
+        targetSdkVersion androidTargetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+    }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    api 'androidx.legacy:legacy-support-v4:1.0.0'
+    api 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    api 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0'
+    api libraries.appCompat
+    api libraries.material
+    api libraries.constraintLayout
+    api libraries.navigationFragment
+    api libraries.navigationUI
+    api libraries.kotlin
+    api libraries.glide
+    api 'com.android.support:support-media-compat:28.0.0'
+    api 'com.google.android.exoplayer:exoplayer:2.10.4'
+//    api 'com.google.android.exoplayer:exoplayer-ui:2.10.4'
+    api 'com.google.android.exoplayer:extension-mediasession:2.10.4'
+//    api 'com.google.android.exoplayer:exoplayer-hls:2.10.4'
+//    api 'com.google.android.exoplayer:exoplayer-dash:2.10.4'
+
+    api 'saschpe.android:pls-parser:1.0.5'
+
+    annotationProcessor libraries.glideCompiler
+    api 'com.github.HaarigerHarald:android-youtubeExtractor:master-SNAPSHOT'
+
+    //network
+    implementation libraries.retrofit
+    implementation libraries.converterGson
+    implementation libraries.retrofitIterceptor
+    implementation libraries.okHttp
+    implementation libraries.coroutinesCore
+    implementation libraries.coroutinesAndroid
+    implementation libraries.coroutinesAdapter
+    implementation libraries.koinCore
+    implementation libraries.koinAndroid
+    implementation libraries.koinViewModel
+    implementation libraries.koinViewModel
+
+    testImplementation libraries.jUnit
+    androidTestImplementation libraries.testRunner
+    androidTestImplementation libraries.espressoCore
+}

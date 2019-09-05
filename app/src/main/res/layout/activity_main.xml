@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whiteSmoke"
+        tools:context=".MainActivity">
+    <include layout="@layout/appbar"/>
+
+
+    <RelativeLayout
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+
+        <androidx.cardview.widget.CardView
+                android:id="@+id/cardShortcut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+
+
+        >
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+            >
+
+
+            <LinearLayout
+                    android:id="@+id/ll_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_marginLeft="@dimen/size14dp"
+                    android:layout_marginRight="@dimen/size14dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_toLeftOf="@+id/ll_controller"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    android:layout_gravity="center">
+                <ImageView
+                        android:id="@+id/iv_artist"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                />
+                <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                >
+                    <TextView
+                            android:id="@+id/tv_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:text="Wanitaku Peterpan"
+                            android:layout_marginLeft="@dimen/size14dp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    />
+                    <TextView
+                            android:id="@+id/tv_subtitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:text="Wanitaku Peterpan"
+                            android:layout_marginLeft="@dimen/size14dp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:id="@+id/ll_controller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/size14dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+            >
+                <ImageView
+                        android:id="@+id/iv_act_play"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        app:srcCompat="@drawable/ic_play"
+                        android:layout_marginRight="@dimen/size14dp"
+                />
+                <ProgressBar
+                        android:id="@+id/progressplay"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:visibility="gone"
+                />
+
+            </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <FrameLayout
+                android:layout_below="@+id/cardShortcut"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/main_container"
+                android:layout_above="@+id/nav_view">
+
+        </FrameLayout>
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/nav_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/windowBackground"
+                app:menu="@menu/bottom_nav_menu"
+                app:labelVisibilityMode="labeled"
+                android:layout_alignParentBottom="true"
+                app:itemTextColor="@color/nav_bottom"
+                app:itemIconTint="@color/nav_bottom"
+        />
+
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

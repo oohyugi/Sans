@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-kapt'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply from: '../dependencies.gradle'
+
+android {
+    compileSdkVersion androidCompileSdkVersion
+    defaultConfig {
+        applicationId "com.yogi.sans"
+        minSdkVersion androidMinSdkVersion
+        targetSdkVersion androidTargetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
+}
+
+dependencies {
+
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation project(path: ':core')
+    implementation project(path: ':home')
+    implementation project(path: ':account')
+    implementation project(path: ':radio')
+    implementation project(':player')
+    implementation 'com.google.code.gson:gson:2.8.5'
+    testImplementation libraries.jUnit
+    androidTestImplementation libraries.testRunner
+    androidTestImplementation libraries.espressoCore
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}

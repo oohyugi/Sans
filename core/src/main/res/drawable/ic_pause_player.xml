@@ -1,0 +1,20 @@
+<vector android:height="64dp" android:viewportHeight="77.695"
+    android:viewportWidth="72.427" android:width="64dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#4694f9" android:pathData="M34.946,9A30.952,30.952 0,0 1,44.89 69.26a30.3,30.3 0,0 1,-9.944 1.632A30.946,30.946 0,0 1,34.946 9Z"/>
+    <path android:fillAlpha="0.26" android:fillColor="#4694f9"
+        android:pathData="M34.897,3.951A30.952,30.952 0,0 1,44.841 64.211a30.3,30.3 0,0 1,-9.944 1.632A30.946,30.946 0,0 1,34.897 3.951Z" android:strokeAlpha="0.26"/>
+    <path android:fillAlpha="0.26" android:fillColor="#4694f9"
+        android:pathData="M36.213,15.802A30.952,30.952 0,0 1,46.157 76.062a30.3,30.3 0,0 1,-9.944 1.632A30.946,30.946 0,0 1,36.213 15.802Z" android:strokeAlpha="0.26"/>
+    <path android:fillAlpha="0.26" android:fillColor="#4694f9"
+        android:pathData="M38.847,14.486A30.952,30.952 0,0 1,48.791 74.746a30.3,30.3 0,0 1,-9.944 1.632A30.946,30.946 0,0 1,38.847 14.486Z" android:strokeAlpha="0.26"/>
+    <path android:fillAlpha="0.26" android:fillColor="#4694f9"
+        android:pathData="M30.946,11.852A30.952,30.952 0,0 1,40.89 72.112a30.3,30.3 0,0 1,-9.944 1.632A30.946,30.946 0,0 1,30.946 11.852Z" android:strokeAlpha="0.26"/>
+    <path android:fillAlpha="0.26" android:fillColor="#4694f9"
+        android:pathData="M41.481,9.218A30.952,30.952 0,0 1,51.425 69.478a30.3,30.3 0,0 1,-9.944 1.632A30.946,30.946 0,0 1,41.481 9.218Z" android:strokeAlpha="0.26"/>
+    <path android:fillAlpha="0.26" android:fillColor="#4694f9"
+        android:pathData="M34.897,0A30.952,30.952 0,0 1,44.841 60.26a30.3,30.3 0,0 1,-9.944 1.632A30.946,30.946 0,0 1,34.897 0Z" android:strokeAlpha="0.26"/>
+    <group>
+        <clip-path android:pathData="M27,31h15.682v18.295h-15.682z M 0,0"/>
+        <path android:fillColor="#fff" android:pathData="M29.614,49.3h0a2.621,2.621 0,0 0,2.614 -2.614L32.228,33.614A2.621,2.621 0,0 0,29.614 31h0A2.621,2.621 0,0 0,27 33.614L27,46.682A2.621,2.621 0,0 0,29.614 49.3ZM37.454,33.614L37.454,46.682A2.621,2.621 0,0 0,40.068 49.3h0a2.621,2.621 0,0 0,2.614 -2.614L42.682,33.614A2.621,2.621 0,0 0,40.068 31h0A2.621,2.621 0,0 0,37.454 33.614Z"/>
+    </group>
+</vector>

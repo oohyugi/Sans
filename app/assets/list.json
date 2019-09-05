@@ -1,0 +1,105 @@
+[
+  { "title": "Alternatif",
+    "img":
+    "https://cdn.webrad.io/images/categories/alternative-rock_96x66.png",
+    "url": "https://radioonline.co.id/genre/alternatif/"},
+  { "title": "Berita",
+    "img": "https://cdn.webrad.io/images/categories/news_96x66.png",
+    "url": "https://radioonline.co.id/genre/berita/"},
+  { "title": "Berita Lokal",
+    "img":
+    "https://cdn.webrad.io/images/categories/local-news_96x66.png",
+    "url": "https://radioonline.co.id/genre/berita-lokal/"},
+  { "title": "Bincang",
+    "img": "https://cdn.webrad.io/images/categories/talk_96x66.png",
+    "url": "https://radioonline.co.id/genre/bincang/"},
+  { "title": "Bincang Asia",
+    "img":
+    "https://cdn.webrad.io/images/categories/asian-talk_96x66.png",
+    "url": "https://radioonline.co.id/genre/bincang-asia/"},
+  { "title": "Bincang Dunia",
+    "img":
+    "https://cdn.webrad.io/images/categories/world-talk_96x66.png",
+    "url": "https://radioonline.co.id/genre/bincang-dunia/"},
+  { "title": "Bisnis",
+    "img": "https://cdn.webrad.io/images/categories/business_96x66.png",
+    "url": "https://radioonline.co.id/genre/bisnis/"},
+  { "title": "Diskusi Islam",
+    "img":
+    "https://cdn.webrad.io/images/categories/islamic-talk_96x66.png",
+    "url": "https://radioonline.co.id/genre/diskusi-islam/"},
+  { "title": "Diskusi Kristen",
+    "img":
+    "https://cdn.webrad.io/images/categories/christian-talk_96x66.png",
+    "url": "https://radioonline.co.id/genre/diskusi-kristen/"},
+  { "title": "Elektronik",
+    "img":
+    "https://cdn.webrad.io/images/categories/electronic_96x66.png",
+    "url": "https://radioonline.co.id/genre/elektronik/"},
+  { "title": "Gospel",
+    "img": "https://cdn.webrad.io/images/categories/gospel_96x66.png",
+    "url": "https://radioonline.co.id/genre/gospel/"},
+  { "title": "Heavy Metal",
+    "img":
+    "https://cdn.webrad.io/images/categories/heavy-metal_96x66.png",
+    "url": "https://radioonline.co.id/genre/heavy-metal/"},
+  { "title": "Hiburan",
+    "img":
+    "https://cdn.webrad.io/images/categories/entertainment_96x66.png",
+    "url": "https://radioonline.co.id/genre/hiburan/"},
+  { "title": "Hip Hop",
+    "img": "https://cdn.webrad.io/images/categories/hip-hop_96x66.png",
+    "url": "https://radioonline.co.id/genre/hip-hop/"},
+  { "title": "Jazz",
+    "img": "https://cdn.webrad.io/images/categories/jazz_96x66.png",
+    "url": "https://radioonline.co.id/genre/jazz/"},
+  { "title": "Kehidupan",
+    "img": "https://cdn.webrad.io/images/categories/life_96x66.png",
+    "url": "https://radioonline.co.id/genre/kehidupan/"},
+  { "title": "Kerohanian",
+    "img":
+    "https://cdn.webrad.io/images/categories/religion-spirituality_96x66.png",
+    "url": "https://radioonline.co.id/genre/kerohanian/"},
+  { "title": "Komunitas",
+    "img":
+    "https://cdn.webrad.io/images/categories/community_96x66.png",
+    "url": "https://radioonline.co.id/genre/komunitas/"},
+  { "title": "Kontemporer",
+    "img":
+    "https://cdn.webrad.io/images/categories/adult-contemporary_96x66.png",
+    "url": "https://radioonline.co.id/genre/kontemporer/"},
+  { "title": "Kristen",
+    "img":
+    "https://cdn.webrad.io/images/categories/christian-contemporary_96x66.png",
+    "url": "https://radioonline.co.id/genre/kristen/"},
+  { "title": "Media",
+    "img":
+    "https://cdn.webrad.io/images/categories/entertainment-media_96x66.png",
+    "url": "https://radioonline.co.id/genre/media/"},
+  { "title": "Musik Asia",
+    "img":
+    "https://cdn.webrad.io/images/categories/asian-music_96x66.png",
+    "url": "https://radioonline.co.id/genre/musik-asia/"},
+  { "title": "Musik Dunia",
+    "img":
+    "https://cdn.webrad.io/images/categories/world-music_96x66.png",
+    "url": "https://radioonline.co.id/genre/musik-dunia/"},
+  { "title": "Musik Lokal",
+    "img":
+    "https://cdn.webrad.io/images/categories/local-music_96x66.png",
+    "url": "https://radioonline.co.id/genre/musik-lokal/"},
+  { "title": "Musik Ringan",
+    "img":
+    "https://cdn.webrad.io/images/categories/easy-listening_96x66.png",
+    "url": "https://radioonline.co.id/genre/musik-ringan/"},
+  { "title": "Religi",
+    "img":
+    "https://cdn.webrad.io/images/categories/religious_96x66.png",
+    "url": "https://radioonline.co.id/genre/religi/"},
+  { "title": "Rock",
+    "img": "https://cdn.webrad.io/images/categories/rock_96x66.png",
+    "url": "https://radioonline.co.id/genre/rock/"},
+  { "title": "Top 40",
+    "img": "https://cdn.webrad.io/images/categories/top-40_96x66.png",
+    "url": "https://radioonline.co.id/genre/top-40/"}
+]
